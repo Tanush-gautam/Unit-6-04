@@ -5,8 +5,8 @@ let h = 0
 document.getElementById('calculate').addEventListener('click',formula)
 
 function formula () {
-  a =d ocument.getElementById('baseA').value
-  b = document.getElementById('baseB').value
+  a = document.getElementById('base-a').value
+  b = document.getElementById('base-b').value
   h = document.getElementById('height').value
 
 a = parseInt(a)
